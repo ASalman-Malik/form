@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey | Form</title>
+
+  </head>
+  <body>
+      <form action="#">
+    <div class="d-flex row m-5">
+        <label for="name">Name <sup style="color: red;">*</sup></label>
+        <div class="col-md-4">
+            
+          <input type="text" id="name" required class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+        </div>
+    
+      </div>
+      <div class="row m-5">
+          <label for="email">Email <sup style="color:red">*</sup></label>
+        <div class="col-md-8">
+            <input type="email" class="form-control" placeholder="Email" aria-label="First name" required>
+          </div>
+
+      </div>
+      <div class="row m-5">
+        <label for="email">Your Experience <sup style="color:red">*</sup></label>
+      <div class="col-md-8">
+          <input type="email" class="form-control" placeholder="Email" aria-label="First name">
+        </div>
+    </div>
+
+    <div class="d-flex row m-5">
+        <label for="email">Overall, how would you rate your experience with us.<sup style="color:red">*</sup></label>
+      <div class="col-md-8 star-rating">
+
+        
+            <input type="radio" name="stars" id="star-a" value="5"/>
+            <label for="star-a"></label>
+            <input type="radio" name="stars" id="star-b" value="4"/>
+            <label for="star-b"></label>
+            
+            <input type="radio" name="stars" id="star-c" value="3"/>
+            <label for="star-c"></label>
+            
+            <input type="radio" name="stars" id="star-d" value="2"/>
+            <label for="star-d"></label>
+            
+            <input type="radio" checked="true" name="stars" id="star-e" value="1"/>
+            <label for="star-e"></label>
+        
+
+          
+
+
+
+        </div>
+    </div>
+    <div class="d-flex row m-5">
+        <label class="col-md-12" for="email">How satisfied you with.<sup style="color:red">*</sup></label>
+      <div class="col-md-2 d-flex">
+          <p></p>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center">
+           <label for="">Very Unsetisfied</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <label for="">Unsatisfied</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+           <label for="">Neutral</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <label for="">Satisfied</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <label for="">Very Satisfied</label>
+          </div>
+
+          <div class="row col-backgroung-row ">
+          <div class="col-2 d-flex ">
+              <p class="">Purchase</p>
+            </div>
+            <div class="col-2 d-flex justify-content-center">
+                <input  type="radio" name="purchase">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="purchase">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="purchase">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="purchase">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="purchase">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Service</p>
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="service">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="service">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="service">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="service">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="service">
+                  </div>
+
+                  </div>
+            <div class="row col-backgroung-row">
+            <div class="col-2">
+                        <p>Company Overall</p>
+            </div>
+            <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-overall">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-overall">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-overall">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-overall">
+              </div>
+
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-overall">
+              </div>
+            </div>
+    </div>
+
+    <div class="row m-5">
+        <label for="email">How likely are you to.<sup style="color:red">*</sup></label>
+      <div class="col-2">
+          
+        </div>
+        <div class="col-md-2 d-flex justify-content-center">
+           <label for="">Very Unlikely</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <label for="">Unlikely</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+           <label for="">Neutral</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <label for="">Likely</label>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <label for="">Very Likely</label>
+          </div>
+          <div class="row col-backgroung-row">
+          <div class="col-2">
+              <p>Buy from us again</p>
+            </div>
+            <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="buy">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="buy">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="buy">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="buy">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="buy">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Recomemded our product to others</p>
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="product">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="product">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="product">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="product">
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                    <input type="radio" name="product">
+                  </div>
+                  </div>
+            <div class="row col-backgroung-row">
+            <div class="col-2">
+                        <p>Recomemded our company to others</p>
+            </div>
+            <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-product">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-product">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-product">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-product">
+              </div>
+              <div class="col-2 d-flex justify-content-center">
+                <input type="radio" name="c-product">
+              </div>
+            </div>
+
+            <div class="row">
+                <label for="email">Additional comments or suggetions</label>
+              <div class="col-12">
+                  <textarea name="" id="" class="col-12"></textarea>
+              </div>
+              <div class="col">
+                  <input type="submit" value="Submit" class="p-2 mt-2">
+              </div>
+    </div>
+</form>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script>
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = ()=>{
+          widget.style.display = "none";
+          post.style.display = "block";
+          editBtn.onclick = ()=>{
+            widget.style.display = "block";
+            post.style.display = "none";
+          }
+          return false;
+        }
+      </script>
+  </body>
+</html>
