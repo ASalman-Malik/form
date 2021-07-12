@@ -4,7 +4,7 @@
             width: 160px;
             flex-direction: row-reverse;
             justify-content: space-between;
-            margin: 30px auto;
+            margin: 50px auto;
             position: absolute;
           }
           /* hide the inputs */
@@ -51,6 +51,10 @@
           .col-backgroung-row{
               border-radius: 5px;
               background-color: whitesmoke;
+          }
+
+          .label-bold{
+              font-weight: 700;
           }
           
           
